@@ -31,6 +31,7 @@ public class Ejercicio_12 {
      */
     public static void main(String[] args) {
        
+        int michigan = -1;
         int contCorrecto = 0;
         int contIncorrecto = 0;
         Scanner leer = new Scanner(System.in);
