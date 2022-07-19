@@ -12,15 +12,8 @@ package javaguia6;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Johana
- */
 public class Ejercicio_3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         
