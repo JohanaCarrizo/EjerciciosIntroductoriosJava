@@ -5,6 +5,8 @@ cambiando sus filas por columnas (o viceversa).
  */
 package javaguia6;
 
+import java.util.Random;
+
 public class Ejercicio_18 {
 
     
@@ -12,7 +14,49 @@ public class Ejercicio_18 {
         
         int[][] matriz = new int[4][4];
         
-        
+        InicializarMatriz(matriz);
+        ImprimirMatriz(matriz);
+        MatrizTrapuesta(matriz);
     }
+    
+     public static void InicializarMatriz(int[][] matriz){
+        
+        for (int i = 0; i < 4; i++) {
+            
+            for (int j = 0; j < 4; j++) {
+                matriz[i][j] = new Random().nextInt(25);
+                
+            }
+        }
+    }
+    
+     public static void ImprimirMatriz(int[][] matriz){
+         System.out.println("........Matriz Original......");
+           for (int i = 0; i < 4; i++) {
+            
+            for (int j = 0; j <4; j++) {
+                
+                System.out.print("["+matriz[i][j]+"]");
+                
+            }
+               System.out.println("");
+        }
+           System.out.println("");
+     }
+     
+     public static void MatrizTrapuesta(int[][] matriz){
+         System.out.println("........Matriz Tranpuesta......");
+         for (int i = 0; i < 4; i++) {
+            
+            for (int j = 0; j < 4; j++) {
+                
+                System.out.print("["+matriz[j][i]+"]");
+                
+            }
+             System.out.println("");
+        }
+     }
+    
+    
     
 }
