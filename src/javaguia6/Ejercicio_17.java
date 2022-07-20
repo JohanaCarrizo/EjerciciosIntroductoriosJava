@@ -12,8 +12,6 @@ public class Ejercicio_17 {
         
         IniciarVector(vector);
         ContarDigitos(vector);
-        
-        
     }
     
     public static void IniciarVector(int[] vector){
